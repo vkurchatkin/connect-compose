@@ -1,0 +1,23 @@
+{
+  "name": "connect-compose",
+  "version": "0.0.1",
+  "description": "Compose connect middleware",
+  "repository": "vkurchatkin/connect-compose",
+  "main": "index.js",
+  "keywords": [
+    "connect",
+    "middleware",
+    "compose"
+  ],
+  "scripts": {
+    "test": "mocha  --require should --reporter spec",
+    "benchmark": "node --expose_gc benchmark.js"
+  },
+  "author": "Vladimir Kurchatkin <vladimir.kurchatkin@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "should": "~2.1.0",
+    "mocha": "~1.14.0",
+    "bytes": "~0.2.1"
+  }
+}
