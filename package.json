@@ -18,6 +18,7 @@
   "devDependencies": {
     "should": "~2.1.0",
     "mocha": "~1.14.0",
-    "bytes": "~0.2.1"
+    "bytes": "~0.2.1",
+    "connect": "~2.11.2"
   }
 }
